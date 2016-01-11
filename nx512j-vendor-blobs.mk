@@ -40,6 +40,7 @@ PRODUCT_COPY_FILES += \
     vendor/zte/nx512j/proprietary/bin/msm_irqbalance:system/bin/msm_irqbalance \
     vendor/zte/nx512j/proprietary/bin/netmgrd:system/bin/netmgrd \
     vendor/zte/nx512j/proprietary/bin/perfd:system/bin/perfd \
+    vendor/zte/nx512j/proprietary/bin/power_engine:system/bin/power_engine \
     vendor/zte/nx512j/proprietary/bin/ptt_socket_app:system/bin/ptt_socket_app \
     vendor/zte/nx512j/proprietary/bin/qcom-system-daemon:system/bin/qcom-system-daemon \
     vendor/zte/nx512j/proprietary/bin/qemu-props:system/bin/qemu-props \
@@ -86,6 +87,7 @@ PRODUCT_COPY_FILES += \
     vendor/zte/nx512j/proprietary/etc/init.crda.sh:system/etc/init.crda.sh \
     vendor/zte/nx512j/proprietary/etc/init.goldfish.sh:system/etc/init.goldfish.sh \
     vendor/zte/nx512j/proprietary/etc/init.qcom.audio.sh:system/etc/init.qcom.audio.sh \
+    vendor/zte/nx512j/proprietary/etc/init.qcom.fm.sh:system/etc/init.qcom.fm.sh \
     vendor/zte/nx512j/proprietary/etc/init.qcom.bt.sh:system/etc/init.qcom.bt.sh \
     vendor/zte/nx512j/proprietary/etc/init.qcom.coex.sh:system/etc/init.qcom.coex.sh \
     vendor/zte/nx512j/proprietary/etc/init.qcom.debug.sh:system/etc/init.qcom.debug.sh \
@@ -114,7 +116,7 @@ PRODUCT_COPY_FILES += \
     vendor/zte/nx512j/proprietary/framework/qcrilhook.jar:system/framework/qcrilhook.jar \
     vendor/zte/nx512j/proprietary/lib/egl/libGLES_android.so:system/lib/egl/libGLES_android.so \
     vendor/zte/nx512j/proprietary/lib/hw/camera.msm8916.so:system/lib/hw/camera.msm8916.so \
-    vendor/zte/nx512j/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
+    vendor/zte/nx512j/proprietary/lib/hw/gps.msm8916.so:system/lib/hw/gps.msm8916.so \
     vendor/zte/nx512j/proprietary/lib/hw/sensors.msm8916.so:system/lib/hw/sensors.msm8916.so \
     vendor/zte/nx512j/proprietary/lib/libgps.utils.so:system/lib/libgps.utils.so \
     vendor/zte/nx512j/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
@@ -135,9 +137,8 @@ PRODUCT_COPY_FILES += \
     vendor/zte/nx512j/proprietary/lib/libobjectclear_nubia.so:system/lib/libobjectclear_nubia.so \
     vendor/zte/nx512j/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
     vendor/zte/nx512j/proprietary/lib/librmnetctl.so:system/lib/librmnetctl.so \
-    vendor/zte/nx512j/proprietary/lib/modules/texfat.ko:system/lib/modules/texfat.ko \
     vendor/zte/nx512j/proprietary/lib64/egl/libGLES_android.so:system/lib64/egl/libGLES_android.so \
-    vendor/zte/nx512j/proprietary/lib64/hw/gps.default.so:system/lib64/hw/gps.default.so \
+    vendor/zte/nx512j/proprietary/lib64/hw/gps.msm8916.so:system/lib64/hw/gps.msm8916.so \
     vendor/zte/nx512j/proprietary/lib64/hw/sensors.msm8916.so:system/lib64/hw/sensors.msm8916.so \
     vendor/zte/nx512j/proprietary/lib64/libgps.utils.so:system/lib64/libgps.utils.so \
     vendor/zte/nx512j/proprietary/lib64/libloc_api_v02.so:system/lib64/libloc_api_v02.so \
@@ -785,4 +786,4 @@ PRODUCT_COPY_FILES += \
     vendor/zte/nx512j/proprietary/vendor/lib64/libxtwifi_zpp_adaptor.so:system/vendor/lib64/libxtwifi_zpp_adaptor.so \
     vendor/zte/nx512j/proprietary/vendor/lib64/qcdrm/playready/lib/libtzplayready_customer.so:system/vendor/lib64/qcdrm/playready/lib/libtzplayready_customer.so \
     vendor/zte/nx512j/proprietary/vendor/lib64/qcdrm/playready/lib/mediadrm/libprmediadrmplugin_customer.so:system/vendor/lib64/qcdrm/playready/lib/mediadrm/libprmediadrmplugin_customer.so
-    
+
