@@ -115,7 +115,7 @@ PRODUCT_COPY_FILES += \
     vendor/zte/nx512j/proprietary/framework/qcrilhook.jar:system/framework/qcrilhook.jar \
     vendor/zte/nx512j/proprietary/lib/egl/egl.cfg:system/lib/egl/egl.cfg \
     vendor/zte/nx512j/proprietary/lib/egl/libGLES_android.so:system/lib/egl/libGLES_android.so \
-    vendor/zte/nx512j/proprietary/lib/hw/camera.msm8916.so:system/lib/hw/camera.msm8916.so \
+    vendor/zte/nx512j/proprietary/lib/hw/camera.vendor.msm8916.so:system/lib/hw/camera.vendor.msm8916.so \
     vendor/zte/nx512j/proprietary/lib/hw/gps.msm8916.so:system/lib/hw/gps.msm8916.so \
     vendor/zte/nx512j/proprietary/lib/hw/sensors.msm8916.so:system/lib/hw/sensors.msm8916.so \
     vendor/zte/nx512j/proprietary/lib/libgps.utils.so:system/lib/libgps.utils.so \
