@@ -54,7 +54,6 @@ PRODUCT_COPY_FILES += \
     vendor/zte/nx512j/proprietary/bin/usb_uicc_client:system/bin/usb_uicc_client \
     vendor/zte/nx512j/proprietary/bin/xtwifi-client:system/bin/xtwifi-client \
     vendor/zte/nx512j/proprietary/bin/xtwifi-inet-agent:system/bin/xtwifi-inet-agent \
-    vendor/zte/nx512j/proprietary/etc/capability.xml:system/etc/capability.xml \
     vendor/zte/nx512j/proprietary/etc/cne/SwimConfig.xml:system/etc/cne/SwimConfig.xml \
     vendor/zte/nx512j/proprietary/etc/cne/andsfCne.xml:system/etc/cne/andsfCne.xml \
     vendor/zte/nx512j/proprietary/etc/data/dsi_config.xml:system/etc/data/dsi_config.xml \
@@ -79,7 +78,6 @@ PRODUCT_COPY_FILES += \
     vendor/zte/nx512j/proprietary/etc/firmware/ice40.bin:system/etc/firmware/ice40.bin \
     vendor/zte/nx512j/proprietary/etc/firmware/leia_pfp_470.fw:system/etc/firmware/leia_pfp_470.fw \
     vendor/zte/nx512j/proprietary/etc/firmware/leia_pm4_470.fw:system/etc/firmware/leia_pm4_470.fw \
-    vendor/zte/nx512j/proprietary/etc/firmware/nfc_test.bin:system/etc/firmware/nfc_test.bin \
     vendor/zte/nx512j/proprietary/etc/hcidump.sh:system/etc/hcidump.sh \
     vendor/zte/nx512j/proprietary/etc/hsic.control.bt.sh:system/etc/hsic.control.bt.sh \
     vendor/zte/nx512j/proprietary/etc/init.ath3k.bt.sh:system/etc/init.ath3k.bt.sh \
@@ -96,19 +94,11 @@ PRODUCT_COPY_FILES += \
     vendor/zte/nx512j/proprietary/etc/init.qcom.uicc.sh:system/etc/init.qcom.uicc.sh \
     vendor/zte/nx512j/proprietary/etc/init.qcom.wifi.sh:system/etc/init.qcom.wifi.sh \
     vendor/zte/nx512j/proprietary/etc/init.qcom.zram.sh:system/etc/init.qcom.zram.sh \
-    vendor/zte/nx512j/proprietary/etc/media_codecs_8939.xml:system/etc/media_codecs_8939.xml \
-    vendor/zte/nx512j/proprietary/etc/mixer_paths_mtp.xml:system/etc/mixer_paths_mtp.xml \
     vendor/zte/nx512j/proprietary/etc/permissions/com.qualcomm.location.xml:system/etc/permissions/com.qualcomm.location.xml \
     vendor/zte/nx512j/proprietary/etc/permissions/qcnvitems.xml:system/etc/permissions/qcnvitems.xml \
     vendor/zte/nx512j/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml \
     vendor/zte/nx512j/proprietary/etc/permissions/qti_permissions.xml:system/etc/permissions/qti_permissions.xml \
     vendor/zte/nx512j/proprietary/etc/qca6234-service.sh:system/etc/qca6234-service.sh \
-    vendor/zte/nx512j/proprietary/etc/wfdconfig.xml:system/etc/wfdconfig.xml \
-    vendor/zte/nx512j/proprietary/etc/wfdconfig1280_720.xml:system/etc/wfdconfig1280_720.xml \
-    vendor/zte/nx512j/proprietary/etc/wfdconfig640_480.xml:system/etc/wfdconfig640_480.xml \
-    vendor/zte/nx512j/proprietary/etc/wfdconfig800_480.xml:system/etc/wfdconfig800_480.xml \
-    vendor/zte/nx512j/proprietary/etc/wfdconfig960_540.xml:system/etc/wfdconfig960_540.xml \
-    vendor/zte/nx512j/proprietary/etc/wfdconfigsink.xml:system/etc/wfdconfigsink.xml \
     vendor/zte/nx512j/proprietary/framework/qcnvitems.jar:system/framework/qcnvitems.jar \
     vendor/zte/nx512j/proprietary/framework/qcrilhook.jar:system/framework/qcrilhook.jar \
     vendor/zte/nx512j/proprietary/lib/egl/libGLES_android.so:system/lib/egl/libGLES_android.so \
