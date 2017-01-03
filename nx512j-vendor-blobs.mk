@@ -56,9 +56,6 @@ PRODUCT_COPY_FILES += \
     vendor/zte/nx512j/proprietary/bin/xtwifi-inet-agent:system/bin/xtwifi-inet-agent \
     vendor/zte/nx512j/proprietary/etc/cne/SwimConfig.xml:system/etc/cne/SwimConfig.xml \
     vendor/zte/nx512j/proprietary/etc/cne/andsfCne.xml:system/etc/cne/andsfCne.xml \
-    vendor/zte/nx512j/proprietary/etc/data/dsi_config.xml:system/etc/data/dsi_config.xml \
-    vendor/zte/nx512j/proprietary/etc/data/netmgr_config.xml:system/etc/data/netmgr_config.xml \
-    vendor/zte/nx512j/proprietary/etc/data/qmi_config.xml:system/etc/data/qmi_config.xml \
     vendor/zte/nx512j/proprietary/etc/dpm/nsrm/NsrmConfiguration.xml:system/etc/dpm/nsrm/NsrmConfiguration.xml \
     vendor/zte/nx512j/proprietary/etc/dpm/dpm.conf:system/etc/dpm/dpm.conf \
     vendor/zte/nx512j/proprietary/etc/firmware/a225_pfp.fw:system/etc/firmware/a225_pfp.fw \
