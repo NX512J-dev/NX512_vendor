@@ -75,27 +75,10 @@ PRODUCT_COPY_FILES += \
     vendor/zte/nx512j/proprietary/etc/firmware/ice40.bin:system/etc/firmware/ice40.bin \
     vendor/zte/nx512j/proprietary/etc/firmware/leia_pfp_470.fw:system/etc/firmware/leia_pfp_470.fw \
     vendor/zte/nx512j/proprietary/etc/firmware/leia_pm4_470.fw:system/etc/firmware/leia_pm4_470.fw \
-    vendor/zte/nx512j/proprietary/etc/hcidump.sh:system/etc/hcidump.sh \
-    vendor/zte/nx512j/proprietary/etc/hsic.control.bt.sh:system/etc/hsic.control.bt.sh \
-    vendor/zte/nx512j/proprietary/etc/init.ath3k.bt.sh:system/etc/init.ath3k.bt.sh \
-    vendor/zte/nx512j/proprietary/etc/init.crda.sh:system/etc/init.crda.sh \
-    vendor/zte/nx512j/proprietary/etc/init.goldfish.sh:system/etc/init.goldfish.sh \
-    vendor/zte/nx512j/proprietary/etc/init.qcom.audio.sh:system/etc/init.qcom.audio.sh \
-    vendor/zte/nx512j/proprietary/etc/init.qcom.bt.sh:system/etc/init.qcom.bt.sh \
-    vendor/zte/nx512j/proprietary/etc/init.qcom.coex.sh:system/etc/init.qcom.coex.sh \
-    vendor/zte/nx512j/proprietary/etc/init.qcom.debug.sh:system/etc/init.qcom.debug.sh \
-    vendor/zte/nx512j/proprietary/etc/init.qcom.efs.sync.sh:system/etc/init.qcom.efs.sync.sh \
-    vendor/zte/nx512j/proprietary/etc/init.qcom.fm.sh:system/etc/init.qcom.fm.sh \
-    vendor/zte/nx512j/proprietary/etc/init.qcom.post_boot.sh:system/etc/init.qcom.post_boot.sh \
-    vendor/zte/nx512j/proprietary/etc/init.qcom.sdio.sh:system/etc/init.qcom.sdio.sh \
-    vendor/zte/nx512j/proprietary/etc/init.qcom.uicc.sh:system/etc/init.qcom.uicc.sh \
-    vendor/zte/nx512j/proprietary/etc/init.qcom.wifi.sh:system/etc/init.qcom.wifi.sh \
-    vendor/zte/nx512j/proprietary/etc/init.qcom.zram.sh:system/etc/init.qcom.zram.sh \
     vendor/zte/nx512j/proprietary/etc/permissions/com.qualcomm.location.xml:system/etc/permissions/com.qualcomm.location.xml \
     vendor/zte/nx512j/proprietary/etc/permissions/qcnvitems.xml:system/etc/permissions/qcnvitems.xml \
     vendor/zte/nx512j/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml \
     vendor/zte/nx512j/proprietary/etc/permissions/qti_permissions.xml:system/etc/permissions/qti_permissions.xml \
-    vendor/zte/nx512j/proprietary/etc/qca6234-service.sh:system/etc/qca6234-service.sh \
     vendor/zte/nx512j/proprietary/framework/qcnvitems.jar:system/framework/qcnvitems.jar \
     vendor/zte/nx512j/proprietary/framework/qcrilhook.jar:system/framework/qcrilhook.jar \
     vendor/zte/nx512j/proprietary/lib/egl/libGLES_android.so:system/lib/egl/libGLES_android.so \
